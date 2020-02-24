@@ -7,7 +7,9 @@
 </head>
 <body>
 <div layout:fragment="content">
-    <h3>hello</h3>
+    <h3>callback</h3>
+    <h4 th:text="${login}"></h4>
+    <h4 th:text="${session.user.getLogin()}"></h4>
 </div>
 </body>
 </html>
